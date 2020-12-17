@@ -68,9 +68,9 @@ body{
 }
 
 .navbar a{
-    background-color: black;
+    /* background-color: black;
     color: white;
-    border: solid red;
+    border: solid red; */
 }
 
 
@@ -90,10 +90,15 @@ body{
     font-family: 'langar', cursive;
 }
 
-.imgs{
+.imgs1 {
     display: flex;
     
 }
+
+.imgs2{
+    display: flex;
+}
+
 
 .imgs p{
     margin-top: 180px;
@@ -139,29 +144,33 @@ body{
 }
 
 
-@media (max-width: 500px ){
+@media only screen and (max-width: 800px){
+        .mid {
+            flex-wrap: wrap;
+
+            justify-content: center;
+        }
+
+        .navbar {
+            flex-direction: column;
+        }
+
+        .navbar a{
+            margin-left: 23%;
+        }
+
+        .mysite h1{
+            margin-left: 23%;
+        }
+
+        .top h1{
+            margin-left: 10%;
+        }
+
 
 }
 
 
-
-
-@media (max-width: 800px) {
-
-    body {
-        width: 75%;
-    }
-   
-   
-    .navbar {
-        flex-direction: column;
-    }
-
-    .imgs{
-        flex-wrap: wrap;
-     }
-
-}
 
 
 
