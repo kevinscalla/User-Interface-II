@@ -139,6 +139,35 @@ body{
 }
 
 
+@media (max-width: 500px ){
+
+}
+
+
+
+
+@media (max-width: 800px) {
+
+    body {
+        width: 75%;
+    }
+   
+   
+    .navbar {
+        flex-direction: column;
+    }
+
+    .imgs{
+        flex-wrap: wrap;
+     }
+
+}
+
+
+
+
+
+
 
 
 
